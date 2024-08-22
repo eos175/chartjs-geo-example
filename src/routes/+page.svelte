@@ -106,7 +106,9 @@
 
 <div class="flex h-screen flex-col items-center justify-center p-4">
 	<h1 class="mb-3 text-3xl text-white">Chart.js with Svelte, TypeScript, and Tailwind CSS</h1>
-	<div class="flex h-full w-full flex-grow bg-gray-800 items-center justify-center rounded-lg shadow-md">
+	<div
+		class="flex h-full w-full flex-grow bg-gray-800 items-center justify-center rounded-lg shadow-md"
+	>
 		<canvas bind:this={chartCanvas} class="max-h-full"></canvas>
 	</div>
 </div>
